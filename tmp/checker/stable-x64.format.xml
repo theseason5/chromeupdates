@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <response protocol="3.0" server="prod">
-  <daystart elapsed_days="5418" elapsed_seconds="349"/>
+  <daystart elapsed_days="5418" elapsed_seconds="2102"/>
   <app appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" cohort="1:gu/i19:" cohortname="Stable Installs &amp; Full Version Pins" status="ok">
     <updatecheck status="ok">
       <urls>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <response protocol="3.0" server="prod">
-  <daystart elapsed_days="5418" elapsed_seconds="356"/>
+  <daystart elapsed_days="5418" elapsed_seconds="2109"/>
   <app appid="{4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}" cohort="1:jn:11rr@0.05" cohortname="Clang-64" status="ok">
     <updatecheck status="ok">
       <urls>

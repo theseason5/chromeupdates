@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <response protocol="3.0" server="prod">
-  <daystart elapsed_days="5418" elapsed_seconds="353"/>
-  <app appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" cohort="1:0/11px:11q3@0.5" cohortname="Dev Ramp up Cohort" status="ok">
+  <daystart elapsed_days="5418" elapsed_seconds="2106"/>
+  <app appid="{8A69D345-D564-463C-AFF1-A69D9E530F96}" cohort="1:0/11px/11q3:" cohortname="BRP-experiment" status="ok">
     <updatecheck status="ok">
       <urls>
-        <url codebase="http://redirector.gvt1.com/edgedl/release2/chrome/add64kv2y75vxpgbpv3g5ukucqkq_97.0.4681.0/"/>
-        <url codebase="https://redirector.gvt1.com/edgedl/release2/chrome/add64kv2y75vxpgbpv3g5ukucqkq_97.0.4681.0/"/>
-        <url codebase="http://dl.google.com/release2/chrome/add64kv2y75vxpgbpv3g5ukucqkq_97.0.4681.0/"/>
-        <url codebase="https://dl.google.com/release2/chrome/add64kv2y75vxpgbpv3g5ukucqkq_97.0.4681.0/"/>
-        <url codebase="http://www.google.com/dl/release2/chrome/add64kv2y75vxpgbpv3g5ukucqkq_97.0.4681.0/"/>
-        <url codebase="https://www.google.com/dl/release2/chrome/add64kv2y75vxpgbpv3g5ukucqkq_97.0.4681.0/"/>
+        <url codebase="http://redirector.gvt1.com/edgedl/release2/chrome/asttsacp2qfl2powzi5pm74ro4_97.0.4681.4/"/>
+        <url codebase="https://redirector.gvt1.com/edgedl/release2/chrome/asttsacp2qfl2powzi5pm74ro4_97.0.4681.4/"/>
+        <url codebase="http://dl.google.com/release2/chrome/asttsacp2qfl2powzi5pm74ro4_97.0.4681.4/"/>
+        <url codebase="https://dl.google.com/release2/chrome/asttsacp2qfl2powzi5pm74ro4_97.0.4681.4/"/>
+        <url codebase="http://www.google.com/dl/release2/chrome/asttsacp2qfl2powzi5pm74ro4_97.0.4681.4/"/>
+        <url codebase="https://www.google.com/dl/release2/chrome/asttsacp2qfl2powzi5pm74ro4_97.0.4681.4/"/>
       </urls>
-      <manifest version="97.0.4681.0">
+      <manifest version="97.0.4681.4">
         <actions>
-          <action arguments="--verbose-logging --do-not-launch-chrome --channel=dev" event="install" run="97.0.4681.0_chrome_installer.exe"/>
-          <action Version="97.0.4681.0" event="postinstall" onsuccess="exitsilentlyonlaunchcmd"/>
+          <action arguments="--verbose-logging --do-not-launch-chrome --channel=dev" event="install" run="97.0.4681.4_chrome_installer.exe"/>
+          <action Version="97.0.4681.4" event="postinstall" onsuccess="exitsilentlyonlaunchcmd"/>
         </actions>
         <packages>
-          <package fp="1.cd67ff9d854c0a13ecc6e27b3ca8fec373de5df7930496ea3c96fc6e432b0cfd" hash="+jBdjbcjVagCEfj6JhmcufUNHow=" hash_sha256="cd67ff9d854c0a13ecc6e27b3ca8fec373de5df7930496ea3c96fc6e432b0cfd" name="97.0.4681.0_chrome_installer.exe" required="true" size="77391464"/>
+          <package fp="1.9455261f607456f99930f3fc29fcca71f57d7c7a432113862b6e23826e2ae2c4" hash="7UIVcIPZ838qvPE1uc4h7M5FRyQ=" hash_sha256="9455261f607456f99930f3fc29fcca71f57d7c7a432113862b6e23826e2ae2c4" name="97.0.4681.4_chrome_installer.exe" required="true" size="77802600"/>
         </packages>
       </manifest>
     </updatecheck>
