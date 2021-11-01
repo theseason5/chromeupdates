@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response protocol="3.0" server="prod">
+  <daystart elapsed_days="5418" elapsed_seconds="356"/>
+  <app appid="{4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}" cohort="1:jn:11rr@0.05" cohortname="Clang-64" status="ok">
+    <updatecheck status="ok">
+      <urls>
+        <url codebase="http://redirector.gvt1.com/edgedl/release2/chrome/ac2mm2ytopetqyy2g6nsuxb3rrva_97.0.4688.0/"/>
+        <url codebase="https://redirector.gvt1.com/edgedl/release2/chrome/ac2mm2ytopetqyy2g6nsuxb3rrva_97.0.4688.0/"/>
+        <url codebase="http://dl.google.com/release2/chrome/ac2mm2ytopetqyy2g6nsuxb3rrva_97.0.4688.0/"/>
+        <url codebase="https://dl.google.com/release2/chrome/ac2mm2ytopetqyy2g6nsuxb3rrva_97.0.4688.0/"/>
+        <url codebase="http://www.google.com/dl/release2/chrome/ac2mm2ytopetqyy2g6nsuxb3rrva_97.0.4688.0/"/>
+        <url codebase="https://www.google.com/dl/release2/chrome/ac2mm2ytopetqyy2g6nsuxb3rrva_97.0.4688.0/"/>
+      </urls>
+      <manifest version="97.0.4688.0">
+        <actions>
+          <action arguments="--do-not-launch-chrome --chrome-sxs" event="install" run="97.0.4688.0_chrome_installer.exe"/>
+          <action Version="97.0.4688.0" channel="canary64" event="postinstall" onsuccess="exitsilentlyonlaunchcmd"/>
+        </actions>
+        <packages>
+          <package fp="1.f67f3b8c005a675e9af34bd0bfb975f615500350ee18759f37fb383928c0f598" hash="MonnLtTnCsHK0dCxeFGfLD6vGAs=" hash_sha256="f67f3b8c005a675e9af34bd0bfb975f615500350ee18759f37fb383928c0f598" name="97.0.4688.0_chrome_installer.exe" required="true" size="81262184"/>
+        </packages>
+      </manifest>
+    </updatecheck>
+  </app>
+</response>
